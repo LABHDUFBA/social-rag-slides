@@ -24,7 +24,7 @@
 /* ---------- base ---------- */
 .reveal {
   font-family: var(--font);
-  font-size: 26px;
+  font-size: 30px;
   color: var(--c-ink);
   font-weight: 400;
   letter-spacing: -0.005em;
@@ -51,7 +51,7 @@
 
 /* ---------- título de slide de conteúdo ---------- */
 .slide-title {
-  font-size: 38px;
+  font-size: 44px;
   margin-bottom: 4px;
 }
 .slide-title::after {
@@ -64,7 +64,7 @@
   margin-top: 14px;
 }
 .slide-kicker {
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -108,7 +108,7 @@
 
 /* ---------- frase de destaque ---------- */
 .lead {
-  font-size: 33px;
+  font-size: 38px;
   line-height: 1.42;
   color: var(--c-ink);
   font-weight: 400;
@@ -139,13 +139,13 @@
   pointer-events: none;
 }
 .slide-cover .cover-tag {
-  font-size: 16px; font-weight: 700; letter-spacing: 0.22em;
+  font-size: 19px; font-weight: 700; letter-spacing: 0.22em;
   text-transform: uppercase; color: var(--c-blue-300);
   margin-bottom: 26px;
 }
 .slide-cover h1 {
   color: #fff;
-  font-size: 56px;
+  font-size: 64px;
   line-height: 1.08;
   max-width: 17em;
 }
@@ -154,7 +154,7 @@
   border-radius: 3px; margin: 30px 0 24px;
 }
 .slide-cover .cover-sub {
-  font-size: 23px; color: #c9d6e6; max-width: 30em; font-weight: 300;
+  font-size: 27px; color: #c9d6e6; max-width: 30em; font-weight: 300;
 }
 .slide-cover .cover-logos {
   position: absolute; left: 72px; bottom: 54px;
@@ -173,16 +173,16 @@
   display: flex; flex-direction: column; justify-content: center;
 }
 .slide-section .sec-num {
-  font-size: 20px; font-weight: 800; letter-spacing: 0.2em;
+  font-size: 23px; font-weight: 800; letter-spacing: 0.2em;
   color: var(--c-blue-300); margin-bottom: 18px;
 }
-.slide-section h2 { color: #fff; font-size: 52px; max-width: 16em; }
+.slide-section h2 { color: #fff; font-size: 60px; max-width: 16em; }
 .slide-section .sec-rule {
   width: 72px; height: 5px; background: var(--c-accent);
   border-radius: 3px; margin-top: 26px;
 }
 .slide-section .sec-desc {
-  margin-top: 22px; font-size: 22px; color: #b9c7d8;
+  margin-top: 22px; font-size: 26px; color: #b9c7d8;
   font-weight: 300; max-width: 26em;
 }
 
@@ -195,7 +195,7 @@
   padding: 0 72px;
   border-top: 1px solid var(--c-line);
   background: var(--c-bg);
-  font-size: 13px;
+  font-size: 15px;
   z-index: 30;
 }
 .deck-footer .foot-left {
@@ -211,7 +211,7 @@
   background: transparent;
   color: var(--c-muted);
   font-family: var(--font);
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 700;
   right: 28px; bottom: 18px;
 }
@@ -283,13 +283,13 @@
   display: flex; align-items: baseline; gap: 18px;
 }
 .kpi-card .kpi-platform {
-  font-size: 15px; font-weight: 800; letter-spacing: 0.06em;
+  font-size: 17px; font-weight: 800; letter-spacing: 0.06em;
   text-transform: uppercase; color: var(--c-blue-600);
-  min-width: 112px;
+  min-width: 126px;
 }
-.kpi-card .kpi-figures { font-size: 19px; line-height: 1.4; }
-.kpi-card .kpi-figures b { font-size: 27px; color: var(--c-blue-800); }
-.kpi-card .kpi-period { display: block; font-size: 14px; color: var(--c-muted); margin-top: 4px; }
+.kpi-card .kpi-figures { font-size: 22px; line-height: 1.4; }
+.kpi-card .kpi-figures b { font-size: 32px; color: var(--c-blue-800); }
+.kpi-card .kpi-period { display: block; font-size: 16px; color: var(--c-muted); margin-top: 4px; }
 
 /* badge KPI sobre gráfico */
 .kpi-badge {
@@ -307,7 +307,7 @@
 .split { display: grid; grid-template-columns: 1fr 1fr; gap: 44px; margin-top: 28px; align-items: center; }
 .split.wide-right { grid-template-columns: 0.85fr 1.15fr; }
 .split.wide-left  { grid-template-columns: 1.15fr 0.85fr; }
-.split .col-text p { font-size: 22px; line-height: 1.5; margin: 0 0 16px; }
+.split .col-text p { font-size: 25px; line-height: 1.5; margin: 0 0 16px; }
 
 /* ---------- figuras ---------- */
 .figure { margin: 22px auto 0; text-align: center; }
@@ -321,7 +321,7 @@
 .figure.plain img { border: none; box-shadow: none; }
 .figure figcaption,
 .fig-caption {
-  margin-top: 12px; font-size: 14px; color: var(--c-muted);
+  margin-top: 12px; font-size: 16px; color: var(--c-muted);
   line-height: 1.4;
 }
 .fig-source { font-style: italic; }
@@ -385,17 +385,17 @@
   border-left: 5px solid var(--c-blue-600);
   border-radius: 0 10px 10px 0;
   padding: 18px 24px;
-  font-size: 18px; color: var(--c-blue-900);
+  font-size: 21px; color: var(--c-blue-900);
 }
 .source-line {
-  margin-top: 26px; font-size: 15px; color: var(--c-muted);
+  margin-top: 26px; font-size: 17px; color: var(--c-muted);
 }
 .source-line a { font-weight: 600; }
 
 /* concept term destaque */
 .concept-term {
   display: inline-block;
-  font-size: 16px; font-weight: 800; letter-spacing: 0.05em;
+  font-size: 19px; font-weight: 800; letter-spacing: 0.05em;
   color: var(--c-accent); background: var(--c-accent-soft);
   padding: 6px 16px; border-radius: 8px; margin-bottom: 18px;
 }
@@ -407,12 +407,12 @@
   color: #fff;
   display: flex; flex-direction: column; justify-content: center;
 }
-.slide-end h2 { color: #fff; font-size: 72px; }
+.slide-end h2 { color: #fff; font-size: 82px; }
 .slide-end .end-rule {
   width: 84px; height: 5px; background: var(--c-accent);
   border-radius: 3px; margin: 26px 0;
 }
-.slide-end .end-contacts { font-size: 19px; color: #c9d6e6; line-height: 1.7; }
+.slide-end .end-contacts { font-size: 22px; color: #c9d6e6; line-height: 1.7; }
 .slide-end .end-contacts b { color: #fff; }
 .slide-end .end-logos {
   position: absolute; right: 72px; bottom: 54px;
